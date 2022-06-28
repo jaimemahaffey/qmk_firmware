@@ -1,5 +1,9 @@
 // Place your settings in this file to overwrite default and user settings.
 {
+    "git.ignoreSubmodules": true,
+    "git.autoRepositoryDetection": "openEditors",
+    "git.detectSubmodules": false,
+
     // Unofficially, QMK uses spaces for indentation
     "editor.insertSpaces": true,
     // Configure glob patterns for excluding files and folders.
@@ -26,9 +30,6 @@
     },
     "python.formatting.provider": "yapf",
     "[json]": {
-        "editor.formatOnSave": false
-    },
-    "clangd.arguments": [
-        "--header-insertion=never"
-    ]
+	    "editor.formatOnSave": false
+    }
 }
