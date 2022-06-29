@@ -19,4 +19,4 @@ RGBLIGHT_ENABLE = yes       # Enable WS2812 RGB underlight.
 LTO_ENABLE = yes
 SPLIT_KEYBOARD = yes
 
-DEFAULT_FOLDER = keebio/sinc/rev1
+DEFAULT_FOLDER = keebio/sinc/rev2
