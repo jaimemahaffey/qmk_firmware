@@ -40,5 +40,5 @@
     },
 
     "terminal.integrated.cursorStyle": "line",
-    "C_Cpp.errorSquiggles": "Enabled"
+    "C_Cpp.errorSquiggles": "Disabled"
 }

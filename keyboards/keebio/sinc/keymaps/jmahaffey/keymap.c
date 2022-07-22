@@ -5,7 +5,7 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    [_QWERTY] = LAYOUT_80_with_macro_wrapper(
     KC_MNXT,          KC_ESC,  _________________FUNC_LEFT_________________,         _________________FUNC_RIGHT________________,  KC_F11,  KC_F12,  KC_DEL,  KC_MUTE,
-    KC_F1,   KC_F2,   KC_GRV,  ________________NUMBER_LEFT________________,         ________________NUMBER_RIGHT_______________,KC_MINS, KC_EQL,  _______,  KC_BSPC, KC_HOME,
+    KC_DEL,  S(KC_DEL)	,   KC_GRV,  ________________NUMBER_LEFT________________,         ________________NUMBER_RIGHT_______________,KC_MINS, KC_EQL,  _______,  KC_BSPC, KC_HOME,
     KC_F3,   KC_F4,   KC_TAB,  _________________QWERTY_L1_________________,         _________________QWERTY_R1_________________,  KC_LBRC, KC_RBRC, KC_BSLS, KC_END,
     KC_F5,   KC_F6,   KC_LOWR, _________________QWERTY_L2_________________,         _________________QWERTY_R2_________________,                   KC_ENT,  KC_PGUP,
     KC_F7,   KC_F8,   KC_LSFT, _________________QWERTY_L3_________________,         _________________QWERTY_R3_________________,          KC_RSFT, KC_UP,   KC_PGDN,
