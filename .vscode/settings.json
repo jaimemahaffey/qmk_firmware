@@ -1,5 +1,9 @@
 // Place your settings in this file to overwrite default and user settings.
 {
+    "git.ignoreSubmodules": true,
+    "git.autoRepositoryDetection": "openEditors",
+    "git.detectSubmodules": false,
+
     // Unofficially, QMK uses spaces for indentation
     "editor.insertSpaces": true,
     // Configure glob patterns for excluding files and folders.
@@ -40,5 +44,5 @@
     },
 
     "terminal.integrated.cursorStyle": "line",
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "disabled"
 }
